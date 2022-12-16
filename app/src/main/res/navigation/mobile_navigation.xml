@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.jsandi.cafeteria.ui.home.HomeFragment"
+        android:label="@string/menu_producto"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_nav_home_to_addProductoFragment"
+            app:destination="@id/addProductoFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_updateProductoFragment"
+            app:destination="@id/updateProductoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_pedido"
+        android:name="com.jsandi.cafeteria.ui.home.PedidoFragment"
+        android:label="@string/menu_pedido"
+        tools:layout="@layout/fragment_pedido" >
+        <action
+            android:id="@+id/action_nav_pedido_to_addPedidoFragment"
+            app:destination="@id/addPedidoFragment" />
+        <action
+            android:id="@+id/action_nav_pedido_to_updatePedidoFragment"
+            app:destination="@id/updatePedidoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addProductoFragment"
+        android:name="com.jsandi.cafeteria.ui.home.AddProductoFragment"
+        android:label="Añadir Producto"
+        tools:layout="@layout/fragment_add_producto">
+        <action
+            android:id="@+id/action_addProductoFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateProductoFragment"
+        android:name="com.jsandi.cafeteria.ui.home.UpdateProductoFragment"
+        android:label="Actualizar Producto"
+        tools:layout="@layout/fragment_update_producto">
+        <action
+            android:id="@+id/action_updateProductoFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+        <argument
+            android:name="productoArg"
+            app:argType="com.jsandi.cafeteria.model.Producto" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPedidoFragment"
+        android:name="com.jsandi.cafeteria.ui.home.AddPedidoFragment"
+        android:label="Añadir Pedido"
+        tools:layout="@layout/fragment_add_pedido" >
+        <action
+            android:id="@+id/action_addPedidoFragment_to_nav_pedido"
+            app:destination="@id/nav_pedido" />
+    </fragment>
+    <fragment
+        android:id="@+id/updatePedidoFragment"
+        android:name="com.jsandi.cafeteria.ui.home.UpdatePedidoFragment"
+        android:label="Actualizar Pedido"
+        tools:layout="@layout/fragment_update_pedido" >
+        <action
+            android:id="@+id/action_updatePedidoFragment_to_nav_pedido"
+            app:destination="@id/nav_pedido" />
+        <argument
+            android:name="pedidoArg"
+            app:argType="com.jsandi.cafeteria.model.Pedido" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_proveedor"
+        android:name="com.jsandi.cafeteria.ui.home.ProveedorFragment"
+        android:label="@string/menu_proveedores"
+        tools:layout="@layout/fragment_proveedor">
+        <action
+            android:id="@+id/action_nav_proveedor_to_addProveedorFragment"
+            app:destination="@id/addProveedorFragment" />
+        <action
+            android:id="@+id/action_nav_proveedor_to_updateProveedorFragment"
+            app:destination="@id/updateProveedorFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addProveedorFragment"
+        android:name="com.jsandi.cafeteria.ui.home.AddProveedorFragment"
+        android:label="Anadir Proveedor"
+        tools:layout="@layout/fragment_add_proveedor">
+        <action
+            android:id="@+id/action_addProveedorFragment_to_nav_proveedor"
+            app:destination="@id/nav_proveedor" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/updateProveedorFragment"
+        android:name="com.jsandi.cafeteria.ui.home.UpdateProveedorFragment"
+        android:label="fragment_update_proveedor"
+        tools:layout="@layout/fragment_update_proveedor" >
+        <action
+            android:id="@+id/action_updateProveedorFragment_to_nav_proveedor"
+            app:destination="@id/nav_proveedor" />
+        <argument
+            android:name="proveedorArg"
+            app:argType="com.jsandi.cafeteria.model.Proveedor" />
+    </fragment>
+</navigation>

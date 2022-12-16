@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.home.UpdateProductoFragment">
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/NombreProveedor"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_ubicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Ubicacion"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_proxima_entrega"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/ProximaEntrega"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/bt_update_proveedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnUpdateProveedor"
+        app:backgroundTint="#D5BFBF" />
+
+    <Button
+        android:id="@+id/bt_delete_proveedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDeleteProveedor"
+        app:backgroundTint="#D5BFBF" />
+
+</LinearLayout>

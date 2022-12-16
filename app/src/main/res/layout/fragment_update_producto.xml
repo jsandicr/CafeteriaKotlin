@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.home.UpdateProductoFragment">
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Precio"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_stock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Stock"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/bt_update_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnUpdateProducto"
+        app:backgroundTint="#D5BFBF" />
+
+    <Button
+        android:id="@+id/bt_delete_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDeleteProducto"
+        app:backgroundTint="#D5BFBF" />
+
+</LinearLayout>

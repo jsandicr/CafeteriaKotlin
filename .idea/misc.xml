@@ -4,9 +4,30 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/drawable-v24/ic_back.xml" value="0.195" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.121" />
         <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/activity_auth.xml" value="0.2" />
         <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/activity_principal.xml" value="0.264" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/app_bar_principal.xml" value="0.2" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/content_principal.xml" value="0.22826086956521738" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/fragment_add_lugar.xml" value="0.22826086956521738" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/fragment_add_pedido.xml" value="0.23007246376811594" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/fragment_add_producto.xml" value="0.1" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/fragment_add_proveedor.xml" value="0.1265625" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/fragment_gallery.xml" value="0.10989583333333333" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/fragment_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/fragment_pedido.xml" value="0.10989583333333333" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/fragment_proveedor.xml" value="0.14583333333333334" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/fragment_slideshow.xml" value="0.10989583333333333" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/fragment_update_pedido.xml" value="0.23007246376811594" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/fragment_update_producto.xml" value="0.1" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/fragment_update_proveedor.xml" value="0.14583333333333334" />
         <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/item.xml" value="0.20427350427350427" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/nav_header_principal.xml" value="0.22826086956521738" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/pedido_fila.xml" value="0.264" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/producto_fila.xml" value="0.22826086956521738" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/layout/proveedor_fila.xml" value="0.14583333333333334" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/menu/activity_main_drawer.xml" value="0.1265625" />
+        <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/menu/principal.xml" value="0.1265625" />
         <entry key="..\:/Q7/Programacion_Movil/Cafeteria/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.241" />
       </map>
     </option>

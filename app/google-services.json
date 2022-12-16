@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1060466838643-c4avb6u5ufhjeco7ajgplr32ann6mqtm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jsandi.cafeteria",
+            "certificate_hash": "15259615e11f9165c0112612e304ff73690812c0"
+          }
+        },
+        {
           "client_id": "1060466838643-ph9oic8n4nco24uthi86jri6quq4nluh.apps.googleusercontent.com",
           "client_type": 3
         }
